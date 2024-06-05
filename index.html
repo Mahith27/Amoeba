@@ -4,31 +4,47 @@
     <title>Amoeba Children's Hospital</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-image: url('C:\Users\mgummakonda\Desktop\bgd.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
-        .header {
-            background-color: #f8f9fa;
-            text-align: center;
-            padding: 20px;
+        .highlight {
+            font-size: 2em;
+            color: #FF6347; /* You can change this to any color you like */
         }
-        .main {
-            margin: 20px;
+        .doctor {
+            display: flex;
+            align-items: center;
+        }
+        .doctor img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Welcome to Amoeba Children's Hospital</h1>
-    </div>
-    <div class="main">
-        <h2>About Us</h2>
-        <p>Amoeba Children's Hospital is dedicated to providing the best care for children in the region.</p>
-
-        <h2>Services</h2>
-        <p>We offer a wide range of medical services for children of all ages.</p>
-
-        <h2>Contact Us</h2>
-        <p>For any inquiries or appointments, please contact us at (phone number) or email us at (email).</p>
-    </div>
+    <header>
+        <h1 class="highlight">Amoeba Children's Hospital</h1>
+        <img src="path_to_your_hospital_logo" alt="Hospital Logo">
+    </header>
+    <main>
+        <section class="doctor">
+            <img src="C:\Users\mgummakonda\Desktop\bgd.jpg" alt="Dr. Tharu Tej">
+            <div>
+                <h2>Dr. Tharu Tej</h2>
+                <p>Details about Dr. Tharu Tej...</p>
+            </div>
+        </section>
+        <section class="doctor">
+            <img src="C:\Users\mgummakonda\Desktop\bgd.jpg" alt="Dr. Aishwarya">
+            <div>
+                <h2>Dr. Aishwarya</h2>
+                <p>Details about Dr. Aishwarya...</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
